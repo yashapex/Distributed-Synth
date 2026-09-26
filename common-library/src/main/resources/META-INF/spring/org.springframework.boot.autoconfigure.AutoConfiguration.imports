@@ -1,0 +1,2 @@
+com.distributed_synth.common_library.security.SharedSecurityAutoConfiguration
+com.distributed_synth.common_library.error.SharedExceptionAutoConfiguration

@@ -1,0 +1,32 @@
+package com.distributed_synth.intelligence_service.entity;
+
+import com.openai.models.admin.organization.projects.Project;
+import jakarta.persistence.*;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.security.core.userdetails.User;
+
+import java.time.Instant;
+
+@Entity
+@Table(name = "chat_sessions")
+@Getter @Setter @NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class ChatSession {
+
+    @EmbeddedId
+    private ChatSessionId id;
+
+    @CreationTimestamp
+    @Column(nullable = false, updatable = false)
+    Instant createdAt;
+
+    @UpdateTimestamp
+    Instant updatedAt;
+
+    Instant deletedAt; // soft delete
+}
