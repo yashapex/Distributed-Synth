@@ -4,6 +4,13 @@
     <file url="file://$PROJECT_DIR$/account-service/account-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/account-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/common-library/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/config-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/discovery-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/intelligence-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/workspace-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-library/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery-service/src/main/java" charset="UTF-8" />
